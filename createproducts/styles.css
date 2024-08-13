@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .container{
+    width:100%;
+  }
+  .form-input {
+    display: flex;
+    align-items: center;
+  }
+  .form-input i {
+    margin-right: 10px;
+    color: #4A5568;
+  }
+  @media (min-width: 640px) {
+    .form-input {
+      flex-direction: row;
+    }
+    .form-input label {
+      flex: 0 0 150px;
+      text-align: right;
+      margin-right: 10px;
+    }
+    .form-input input {
+      flex: 1;
+    }
+    .container{
+        width:100%;
+      }
+  }
+  @media (max-width: 639px) {
+    .form-input {
+      flex-direction: column;
+    }
+    .form-input label {
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    .container{
+        width:100%;
+      }
+  }
+
+  

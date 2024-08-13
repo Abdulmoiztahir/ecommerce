@@ -1,0 +1,53 @@
+#avatar{
+  border: 1px solid black;
+}
+
+.logo {
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 1.5rem 0;
+  text-align: center;
+  margin-top: 69px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .navbar-content {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .navbar-content a,
+  .navbar-content img {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar-content a:last-child,
+  .navbar-content img:last-child {
+    margin-bottom: 0;
+  }
+  
+}
